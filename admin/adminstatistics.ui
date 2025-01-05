@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminStatistics</class>
+ <widget class="QWidget" name="AdminStatistics">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员统计</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="memberStatisticsGroupBox">
+     <property name="title">
+      <string>会员统计</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="4" column="0" colspan="2">
+       <widget class="QPushButton" name="memberStatisticsButton">
+        <property name="text">
+         <string>获取会员统计信息</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="monthlyMemberCountLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="quarterlyMemberCountLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="annualMemberCountLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="totalMemberCountLabel">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="totalMemberCountLabel_2">
+        <property name="text">
+         <string>会员总数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="monthlyMemberCountLabel_2">
+        <property name="text">
+         <string>月卡会员数量：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="annualMemberCountLabel_2">
+        <property name="text">
+         <string>年卡会员数量：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="quarterlyMemberCountLabel_2">
+        <property name="text">
+         <string>季卡会员数量：</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="courseStatisticsGroupBox">
+     <property name="title">
+      <string>课程统计</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="1">
+       <widget class="QDateEdit" name="startDateEdit"/>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QTableWidget" name="courseStatisticsTableWidget">
+        <column>
+         <property name="text">
+          <string>课程名称</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>预约人数</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>热门程度</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>课程总容量</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>课程时间</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QPushButton" name="courseStatisticsButton">
+        <property name="text">
+         <string>获取课程统计信息</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="startDateLabel">
+        <property name="text">
+         <string>开始日期：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="endDateLabel">
+        <property name="text">
+         <string>结束日期：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QDateEdit" name="endDateEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="financialStatisticsGroupBox">
+     <property name="title">
+      <string>财务统计</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="totalPaymentAmountLabel_2">
+        <property name="text">
+         <string>总缴费金额：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="totalPaymentAmountLabel">
+        <property name="text">
+         <string>0.00</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="financialStatisticsButton">
+        <property name="text">
+         <string>获取财务统计信息</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QTableWidget" name="paymentRatioTableWidget">
+        <column>
+         <property name="text">
+          <string>缴费方式</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>占比</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

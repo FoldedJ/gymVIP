@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>insertTrainer</class>
+ <widget class="QWidget" name="insertTrainer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="contactNumberLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>220</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>联系电话</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>擅长</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="specialtyLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>300</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qualificationLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>340</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>260</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>姓名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>260</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>邮箱</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>180</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>性别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yesButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>480</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="genderComboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Male</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Female</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="nameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>140</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>340</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>专业资质</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>380</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工作排班</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="workScheduleTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>380</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>420</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pw">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>420</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

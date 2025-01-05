@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admininfo</class>
+ <widget class="QWidget" name="admininfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员功能</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>161</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>会员信息查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="insertButton">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>教练录入</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>统计</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="courseManageButton">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>课程管理</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>教练信息查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>缴费管理</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>159</x>
+     <y>9</y>
+     <width>650</width>
+     <height>600</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

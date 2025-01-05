@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PaymentWidget</class>
+ <widget class="QWidget" name="PaymentWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>会员缴费</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="memberLabel">
+       <property name="text">
+        <string>会员ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="memberIdLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="amountLabel">
+       <property name="text">
+        <string>缴费金额:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="amountLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="methodLabel">
+       <property name="text">
+        <string>缴费方式:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="methodComboBox">
+       <item>
+        <property name="text">
+         <string>微信</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>支付宝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>现金</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QPushButton" name="payButton">
+       <property name="text">
+        <string>缴费</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="queryLabel">
+       <property name="text">
+        <string>查询缴费记录</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="queryMemberIdLineEdit"/>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QTableView" name="paymentRecordsTableView">
+       <property name="minimumSize">
+        <size>
+         <width>780</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QPushButton" name="queryButton">
+       <property name="text">
+        <string>查询</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

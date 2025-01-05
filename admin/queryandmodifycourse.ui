@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>queryAndModifyCourse</class>
+ <widget class="QWidget" name="queryAndModifyCourse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>课程查询与修改</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="2">
+    <widget class="QLabel" name="capacityLabel">
+     <property name="text">
+      <string>课程容量:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="durationLabel">
+     <property name="text">
+      <string>课程时长（分钟）:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="startTimeLabel">
+     <property name="text">
+      <string>开始时间:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2" colspan="2">
+    <widget class="QPushButton" name="deleteButton">
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QSpinBox" name="classDurationSpinBox"/>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLabel" name="dateLabel">
+     <property name="text">
+      <string>课程日期:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QTimeEdit" name="startTimeEdit"/>
+   </item>
+   <item row="5" column="3">
+    <widget class="QDateEdit" name="classDateEdit"/>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QPushButton" name="modifyButton">
+     <property name="text">
+      <string>修改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QSpinBox" name="classCapacitySpinBox"/>
+   </item>
+   <item row="3" column="0" colspan="4">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="2" column="0" colspan="4">
+    <widget class="QPushButton" name="queryButton">
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QLineEdit" name="valueLineEdit"/>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <widget class="QComboBox" name="conditionComboBox">
+     <item>
+      <property name="text">
+       <string>所有课程</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>课程名称</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>授课教练</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>时间</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
